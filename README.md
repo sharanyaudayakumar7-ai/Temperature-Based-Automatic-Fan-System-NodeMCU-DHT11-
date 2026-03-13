@@ -54,3 +54,4 @@ Sensor → NodeMCU → Blynk Cloud → Mobile Dashboard
 ↓
 Relay Module → Fan Control
 
+![WhatsApp Image 2026-03-13 at 4 38 17 PM](https://github.com/user-attachments/assets/8749f64e-31dd-4294-a6b5-4b5c0a4f7068)
