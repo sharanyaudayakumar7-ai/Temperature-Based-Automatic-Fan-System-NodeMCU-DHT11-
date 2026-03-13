@@ -54,4 +54,28 @@ Sensor → NodeMCU → Blynk Cloud → Mobile Dashboard
 ↓
 Relay Module → Fan Control
 
-![WhatsApp Image 2026-03-13 at 4 38 17 PM](https://github.com/user-attachments/assets/8749f64e-31dd-4294-a6b5-4b5c0a4f7068)
+
+
+* How It Works
+
+1.The DHT11 sensor measures temperature and humidity.
+
+2.NodeMCU reads the sensor data every 2 seconds.
+
+3.The values are sent to the Blynk cloud platform.
+
+4.If the temperature exceeds 26°C, the system:
+
+5.Activates the relay
+
+6.Turns ON the fan
+
+7.If the temperature is below 26°C, the fan turns OFF.
+
+8.Users can monitor temperature and humidity in the Blynk mobile app.
+
+📱Blynk Dashboard Output
+ 
+ This dashboard shows the real-time temperature and humidity values received from the DHT11 sensor through NodeMCU.
+ 
+<img width="1912" height="915" alt="Blynk console" src="https://github.com/user-attachments/assets/23963bb9-a111-4713-a3e1-97380b98372a" />
