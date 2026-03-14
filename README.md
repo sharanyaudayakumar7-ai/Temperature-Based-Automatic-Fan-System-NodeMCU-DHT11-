@@ -1,4 +1,4 @@
-Temperature-Based Automatic Fan System using NodeMCU and DHT11
+**🌡️ Temperature-Based Automatic Fan System using NodeMCU and DHT11**
 
 An IoT-based environmental monitoring system that measures temperature and humidity using a DHT11 sensor and automatically controls a fan using a relay module.
 
@@ -6,7 +6,7 @@ The system uses NodeMCU (ESP8266) to send real-time sensor data to the Blynk IoT
 
 When the temperature crosses a predefined threshold (30°C in this project), the system automatically turns ON the fan. When the temperature drops below the threshold, the fan turns OFF automatically.
 
->Features
+**✨Features**
 
 Real-time temperature monitoring
 
@@ -20,8 +20,9 @@ Serial monitoring for debugging
 
 Energy-efficient automation
 
->Technologies Used
-Hardware
+**🛠 Technologies Used**
+
+🔌 Hardware
 
 NodeMCU (ESP8266)
 
@@ -35,7 +36,7 @@ Breadboard
 
 Jumper Wires
 
-Software
+💻 SoftwareSoftware
 
 Arduino IDE
 
@@ -48,14 +49,14 @@ DHT Sensor Library
 
 
 
->System Architecture
+**🧠 System Architecture**
 
 Sensor → NodeMCU → Blynk Cloud → Mobile Dashboard
 ↓
 Relay Module → Fan Control
 
 
->How It Works
+**⚙️ How It Works**
 
 1) The DHT11 sensor measures temperature and humidity.
 
@@ -68,7 +69,7 @@ Relay Module → Fan Control
 5) Users can monitor temperature and humidity in the Blynk mobile app.
    
 
-> Blynk Setup and Configuration
+**☁️ Blynk Setup and Configuration**
 
 1) Create a template in the Blynk Console with hardware set as ESP8266 and connection type WiFi.
 
@@ -108,8 +109,19 @@ The code reads sensor data from the DHT11 sensor, sends the values to the Blynk 
 
 ![Image](https://github.com/user-attachments/assets/f05a6c03-2eae-44e4-89f5-749dccc45bc3)
 
-📊 System Output
-
+**📊 System Output**
 The following images show the working output of the system, including the Blynk dashboard readings and real-time sensor monitoring.
- 
+
+ ![Image](https://github.com/user-attachments/assets/5c82ccec-d678-4b7d-86d0-985301a29c1a)
+
+![Image](https://github.com/user-attachments/assets/a744f1ed-2973-45f3-a472-83754fdf1a1f)
+
+
+**🚀 Future Improvements**
+
+• 📡 Integration with more IoT sensors
+• 🤖 Smart automation using AI/ML
+• 📊 Cloud data analytics
+• 🔔 Mobile notifications for temperature alerts
+
  
