@@ -93,4 +93,7 @@ Relay Module → Fan Control
 >📱Blynk Dashboard Output
  
  This dashboard shows the real-time temperature and humidity values received from the DHT11 sensor through NodeMCU.
+ <img width="1918" height="967" alt="Image" src="https://github.com/user-attachments/assets/eb8a701b-2694-408d-85a7-cf6373a375db" />
+
+ 
  
