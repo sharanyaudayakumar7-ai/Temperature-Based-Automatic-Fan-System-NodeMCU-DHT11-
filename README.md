@@ -90,10 +90,26 @@ Relay Module → Fan Control
 
 10) The ESP8266 sends temperature data to Blynk and receives commands to switch the fan through the relay.
 
->📱Blynk Dashboard Output
+**>📱Blynk Dashboard Output**
  
  This dashboard shows the real-time temperature and humidity values received from the DHT11 sensor through NodeMCU.
  <img width="1918" height="967" alt="Image" src="https://github.com/user-attachments/assets/eb8a701b-2694-408d-85a7-cf6373a375db" />
 
+**💻 Software Implementation**
+Arduino Code
+
+This section contains the embedded C code used to program the NodeMCU using Arduino IDE.
+
+The code reads sensor data from the DHT11 sensor, sends the values to the Blynk cloud, and controls the relay module based on the temperature threshold.
+
+ ![Image](https://github.com/user-attachments/assets/18e9e90a-21e2-4907-923f-cf478ea8660b)
+
+![Image](https://github.com/user-attachments/assets/26ab544b-c4c0-49ca-89b8-3a43889199e9)
+
+![Image](https://github.com/user-attachments/assets/f05a6c03-2eae-44e4-89f5-749dccc45bc3)
+
+📊 System Output
+
+The following images show the working output of the system, including the Blynk dashboard readings and real-time sensor monitoring.
  
  
