@@ -116,6 +116,11 @@ The following images show the working output of the system, including the Blynk 
 
 ![Image](https://github.com/user-attachments/assets/a744f1ed-2973-45f3-a472-83754fdf1a1f)
 
+**Demo Video** : IoT-based automatic fan system where the fan automatically turns ON when the temperature exceeds the predefined threshold detected by the DHT11sensor.
+
+
+![demo](https://github.com/user-attachments/assets/348d8c77-388f-4cc5-872c-f4d075ca48aa)
+
 
 **🚀 Future Improvements**
 
